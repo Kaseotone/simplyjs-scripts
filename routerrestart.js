@@ -1,12 +1,11 @@
 
 
 ajax({ url: 'http://192.168.1.1/' }, function (a) {
-    var $ = document.getElementById;
     simply.title("test headline!");
 
     function fill(a) {
         for (var k in a) {
-            $('[name="' + k + '"]').val(a[k]);
+            jQuery('[name="' + k + '"]').val(a[k]);
         }
     }
 
