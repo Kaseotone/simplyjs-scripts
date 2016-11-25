@@ -1,4 +1,6 @@
-ajax({ url: 'http://192.168.1.1/' }, function(a) {
+var $ = document.getElementById;
+
+ajax({ url: 'http://192.168.1.1/' }, function (a) {
     simply.title("test headline!");
 
     function fill(a) {
