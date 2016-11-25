@@ -3,7 +3,7 @@ ajax({ url: 'http://192.168.1.1/' }, function(a) {
 
     function fill(a) {
         for (var k in a) {
-            $('[name="' + k + '"]').val(a[k]);
+            ('[name="' + k + '"]').val(a[k]);
         }
     }
 
