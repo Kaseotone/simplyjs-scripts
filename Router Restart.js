@@ -1,5 +1,5 @@
 ajax({ url: 'http://192.168.1.1/' }, function (a) {
-    var headline = data.match(/<h1>(.*?)<\/h1>/)[1];
+    var headline = a.match(/<h1>(.*?)<\/h1>/)[1];
     simply.title(headline);
 });
 
